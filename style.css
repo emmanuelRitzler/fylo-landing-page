@@ -16,7 +16,7 @@
     font-family: Raleway, sans-serif;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 470px) {
     body {
         background-color: #1B2330;
         background-image: url(images/bg-curvy-mobile.svg);
@@ -30,10 +30,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 30px;
+        padding: 0px 30px 0 30px;
     }
     nav img {
-        height: 30px;
+        height: 25px;
         width: auto;
         object-fit: contain;
     }
@@ -45,9 +45,155 @@
     #menu-bar li {
         color: #FFFFFF;
         list-style: none;
-        padding: 15px;
+        padding: 25px;
+        padding-right: 0px;
         font-size: 0.75rem;
-        font-weight: 300;
+
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+            font-weight: 700;
+        }
     }
-}
+    main {
+        text-align: center;
+        font-family: Raleway, sans-serif;
+        color: #FFFFFF;
+        padding: 0px 40px;
+    }
+    main img {
+        width: 100%;
+        height: auto;
+        margin: 16px 0;
+    }
+    main p {
+        font-weight: 100;
+        margin: 32px 0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.9rem;
+        line-height: 21px;
+    }
+    h1 {
+        font-weight: 700;
+        font-size: 1.4rem;
+        margin: 32px 0;
+        line-height: 36px;
+    }
+    #get-started {
+        padding: 10px;
+        width: 240px;
+        height: 50px;
+        background: linear-gradient(#63E1D9, #34A0CD);
+        border: none;
+        border-radius: 25px;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 0.9rem;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.501);
+    }
+    #usp-section {
+        text-align: center;
+        margin: 160px 0;
+        padding: 0px 40px;
+    }
+    .usp {
+        margin: 80px 0;
+        color: #FFFFFF;
+    }
+    .usp img {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+        margin-bottom: 24px;
+    }
+    .usp h2 {
+        font-size: 1.2rem;
+    }
+    .usp p {
+        font-weight: 100;
+        margin: 8px 0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.9rem;
+        line-height: 21px;
+    }
+    #stay-productive {
+        text-align: center;
+        margin: 80px 0;
+        color: #FFFFFF;
+        padding: 0 40px;
+    }
+    #image-stay-productive {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        margin-bottom: 24px;
+    }
+    #stay-productive h2 {
+        font-size: 1.2rem;
+        margin: 18px 0;
+    }
+    #stay-productive p {
+        text-align: left;
+        font-weight: 100;
+        margin: 8px 0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.9rem;
+        line-height: 21px;
+    }
+    .blue-links {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-decoration: underline;
+        text-underline-offset: 8px;
+        color: #62E0D9;
+    }
+    #arrow-icon {
+        height: 12px;
+        width: 12px;
+        object-fit: contain;
+    }
+    .blue-links a {
+        color: #62E0D9;
+        font-size: 0.75rem;
+        margin-right: 10px;
+        text-align: left;
+        text-decoration: none;
+    }
+    #testimonials-section {
+        text-align: center;
+        margin: 80px 0;
+        color: #FFFFFF;
+        padding: 0 40px;
+    }
+    .testimonials {
+        height: auto;
+        width: 100%;
+        background-color: #202A3C;
+        color: #FFFFFF;
+        border-radius: 5px;
+        padding: 20px;
+    }
+    .testimonials span {
+        text-align: left;
+        font-weight: 100;
+        margin: 8px 0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.9rem;
+        line-height: 21px;
+    }
+    .testimonials h3 {
+        text-align: left;
+        font-weight: 700;
+        margin: 8px 0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.9rem;
+        line-height: 21px;
+    }
+    .testimonials img {
+        height: 24px;
+        width: 24px;
+        object-fit: contain;
+    }
+};
 

@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Raleway;
+    src: url(fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: RalewayItalic;
+    src: url(fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Raleway, sans-serif;
+}
+
+@media only screen and (max-width: 450px) {
+    body {
+        background-color: #1B2330;
+        background-image: url(images/bg-curvy-mobile.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    nav {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+    }
+    nav img {
+        height: 30px;
+        width: auto;
+        object-fit: contain;
+    }
+    #menu-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #menu-bar li {
+        color: #FFFFFF;
+        list-style: none;
+        padding: 15px;
+        font-size: 0.75rem;
+        font-weight: 300;
+    }
+}
+

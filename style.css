@@ -118,7 +118,7 @@
     }
     #stay-productive {
         text-align: center;
-        margin: 80px 0;
+        margin: 160px 0;
         color: #FFFFFF;
         padding: 0 40px;
     }
@@ -161,8 +161,7 @@
         text-decoration: none;
     }
     #testimonials-section {
-        text-align: center;
-        margin: 80px 0;
+        margin: 160px 0;
         color: #FFFFFF;
         padding: 0 40px;
     }
@@ -173,27 +172,61 @@
         color: #FFFFFF;
         border-radius: 5px;
         padding: 20px;
+        margin: 32px auto;
     }
-    .testimonials span {
-        text-align: left;
-        font-weight: 100;
-        margin: 8px 0;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 0.9rem;
-        line-height: 21px;
-    }
-    .testimonials h3 {
-        text-align: left;
-        font-weight: 700;
-        margin: 8px 0;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 0.9rem;
-        line-height: 21px;
-    }
-    .testimonials img {
-        height: 24px;
-        width: 24px;
+    #quotemark {
+        position: absolute;
+        transform: translate(-30%, -115%);
+        z-index: -1;
+        height: 50px;
+        width: 32px;
         object-fit: contain;
     }
+    .testimonials p {
+        text-align: left;
+        font-weight: 100;
+        margin: 24px 0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.85rem;
+        line-height: 21px;
+    }
+    .bottom-part {
+        display: grid;
+        grid-template-columns: 12% 88%;
+        grid-template-rows: 100%;
+    }
+    .bottom-part img {
+        align-self: center;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+        object-fit: contain;
+    }
+    .customer-name {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+    }
+    .customer-name span {
+        grid-row: 2 / 3;
+        text-align: left;
+        font-weight: 100;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.9rem;
+        line-height: 21px;
+        align-self: flex-start;
+    }
+    .customer-name h3 {
+        align-self: flex-end;
+        grid-row: 1 / 2;
+        text-align: left;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.9rem;
+        line-height: 21px;
+    }
+
 };
 

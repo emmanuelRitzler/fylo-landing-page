@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
@@ -30,7 +30,7 @@
     <h1>All your files in one secure location, accessible anywhere.</h1>
     <p>Fylo stores all your most important files in one secure location. Access them wherever 
       you need, share and collaborate with friends family, and co-workers.</p>
-      <button id="get-started">Get Started</button>
+      <button class="get-started">Get Started</button>
   </main>
   <section id="usp-section">
     <div class="usp">
@@ -98,41 +98,44 @@
     </div>
   </section>
   <section id="early-access">
-    <h2></h2>
-    <p></p>
-    <input type="text">
-    <label for="e-mail">email@example.com</label>
-    <button></button>
+    <h2>Get early access today</h2>
+    <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+    <label for="email"></label>
+    <input type="email" id="email" name="email" placeholder="email@example.com">
+    <button class="get-started">Get Started For Free</button>
   </section>
-
-
-  Get early access today
-
-  It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
-  questions, our support team would be happy to help you.
-
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-  dolore magna aliqua
-
-  +1-543-123-4567
-  example@fylo.com
-
-  About Us
-  Jobs
-  Press
-  Blog
-
-  Contact Us
-  Terms
-  Privacy
-
   <footer>
+    <img id="footer-logo" src="images/logo.svg" alt="Company Logo">
+    <div id="contact-section">
+      <img id="location-icon" src="images/icon-location.svg" alt="location icon">
+      <p id="location-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+      <img id="phone-icon" src="images/icon-phone.svg" alt="phone icon">
+      <p id="phone-text">+1-543-123-4567</p>
+      <img id="email-icon" src="images/icon-email.svg" alt="email icon">
+      <p id="email-text">example@fylo.com</p>
+    </div>
+    <div id="footer-links-one">
+      <a href="#">About Us</a>
+      <a href="#">Jobs</a>
+      <a href="#">Press</a>
+      <a href="#">Blog</a>
+    </div>
+    <div id="footer-links-two">
+      <a href="#">Contact Us</a>
+      <a href="#">Terms</a>
+      <a href="#">Privacy</a>
+    </div>
+    <div class="social-media-icons">  
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+  </footer>
+  <!-- <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer>
+  </footer> -->
 </body>
 </html>

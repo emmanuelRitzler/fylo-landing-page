@@ -15,6 +15,7 @@
   </style>
 </head>
 <body>
+  <!-- HEADER SECTION -->
   <header>
     <nav>
       <img src="images/logo.svg" alt="Company Logo">
@@ -30,42 +31,49 @@
     <h1>All your files in one secure location, accessible anywhere.</h1>
     <p>Fylo stores all your most important files in one secure location. Access them wherever 
       you need, share and collaborate with friends family, and co-workers.</p>
-      <button class="get-started">Get Started</button>
+    <button class="get-started">Get Started</button>
   </main>
+  <!-- USP SECTION -->
   <section id="usp-section">
-    <div class="usp">
+    <div class="usp-access">
       <img src="images/icon-access-anywhere.svg" alt="Icon access anywhere section">
       <h2>Access your files, anywhere</h2>
       <p>The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
     </div>
-    <div class="usp">
+    <div class="usp-security">
       <img src="images/icon-security.svg" alt="Icon security section">
       <h2>Security you can trust</h2>
       <p>2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
     </div>
-    <div class="usp">
+    <div class="usp-collab">
       <img src="images/icon-collaboration.svg" alt="Icon collaboration section">
       <h2>Real-time collaboration</h2>
       <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
     </div>
-    <div class="usp">
+    <div class="usp-file">
       <img src="images/icon-any-file.svg" alt="Icon store any type of data section">
       <h2>Store any type of file</h2>
       <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.</p>
     </div>
   </section>
+  <!-- PRODUCTIVE SECTION -->
   <section id="stay-productive">
-    <img id="image-stay-productive" src="images/illustration-stay-productive.png" alt="Illustration stay productive section">
-    <h2>Stay productive, wherever you are</h2>
-    <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
-    <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
-    <div class="blue-links">
-      <a href="#">See how Fylo works</a>
-      <img id="arrow-icon" src="images/icon-arrow.svg" alt="Arrow Icon">
+    <div id="productive-image">
+      <img src="images/illustration-stay-productive.png" alt="Illustration stay productive section">
+    </div>
+    <div id="productive-text">
+      <h2>Stay productive, wherever you are</h2>
+      <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+      <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+      <div class="blue-links">
+        <a href="#">See how Fylo works</a>
+        <img id="arrow-icon" src="images/icon-arrow.svg" alt="Arrow Icon">
+      </div>
     </div>
   </section>
+  <!-- TESTIMONIAL SECTION -->
   <section id="testimonials-section">
-    <div class="testimonials">
+    <div id="testimonials-1">
       <img id="quotemark" src="images/bg-quotes.png" alt="quote marks decoration">
       <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
       <div class="bottom-part">
@@ -76,7 +84,7 @@
         </div>
       </div>
     </div>
-    <div class="testimonials">
+    <div id="testimonials-2">
       <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
       <div class="bottom-part">
         <img src="images/profile-2.jpg" alt="photo customer 2">
@@ -86,7 +94,7 @@
         </div>
       </div>
     </div>
-    <div class="testimonials">
+    <div  id="testimonials-3">
       <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
       <div class="bottom-part">
         <img src="images/profile-3.jpg" alt="photo customer 3">
@@ -97,13 +105,17 @@
       </div>
     </div>
   </section>
+  <!-- EARLY ACCESS SECTION -->
   <section id="early-access">
     <h2>Get early access today</h2>
     <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
-    <label for="email"></label>
-    <input type="email" id="email" name="email" placeholder="email@example.com">
-    <button class="get-started">Get Started For Free</button>
+    <div id="buttons">
+      <label for="email"></label>
+      <input type="email" id="email" name="email" placeholder="email@example.com">
+      <button class="get-started">Get Started For Free</button>
+    </div>
   </section>
+  <!-- FOOTER SECTION -->
   <footer>
     <img id="footer-logo" src="images/logo.svg" alt="Company Logo">
     <div id="contact-section">
@@ -131,11 +143,6 @@
         <i class="fa fa-instagram"></i>
     </div>
   </footer>
-  <!-- <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer> -->
+  <script src="main.js"></script>
 </body>
 </html>

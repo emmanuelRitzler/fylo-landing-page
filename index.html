@@ -7,12 +7,6 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <!-- HEADER SECTION -->
@@ -29,8 +23,7 @@
   <main>
     <img src="images/illustration-intro.png" alt="main banner image">
     <h1>All your files in one secure location, accessible anywhere.</h1>
-    <p>Fylo stores all your most important files in one secure location. Access them wherever 
-      you need, share and collaborate with friends family, and co-workers.</p>
+    <p>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
     <button class="get-started">Get Started</button>
   </main>
   <!-- USP SECTION -->
@@ -112,36 +105,49 @@
     <div id="buttons">
       <label for="email"></label>
       <input type="email" id="email" name="email" placeholder="email@example.com">
-      <button class="get-started">Get Started For Free</button>
+      <button class="get-started-mail">Get Started For Free</button>
     </div>
+    <p id="error-message"></p>
   </section>
   <!-- FOOTER SECTION -->
   <footer>
     <img id="footer-logo" src="images/logo.svg" alt="Company Logo">
     <div id="contact-section">
-      <img id="location-icon" src="images/icon-location.svg" alt="location icon">
-      <p id="location-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-      <img id="phone-icon" src="images/icon-phone.svg" alt="phone icon">
-      <p id="phone-text">+1-543-123-4567</p>
-      <img id="email-icon" src="images/icon-email.svg" alt="email icon">
-      <p id="email-text">example@fylo.com</p>
+      <div id="contact-part">
+        <div id="location-part">
+          <img id="location-icon" src="images/icon-location.svg" alt="location icon">
+          <p id="location-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        </div>
+        <div id="right-side">
+            <img id="phone-icon" src="images/icon-phone.svg" alt="phone icon">
+            <p id="phone-text">+1-543-123-4567</p>
+            <img id="email-icon" src="images/icon-email.svg" alt="email icon">
+            <p id="email-text">example@fylo.com</p>
+        </div>
+        </div>
+
+      <div id="links-part">
+        <div id="footer-links-one">
+          <a href="#">About Us</a>
+          <a href="#">Jobs</a>
+          <a href="#">Press</a>
+          <a href="#">Blog</a>
+        </div>
+        <div id="footer-links-two">
+          <a href="#">Contact Us</a>
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+        </div>
+      </div>
+      <div id="social-part">
+        <div class="social-media-icons">  
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+      </div>
+      </div>
     </div>
-    <div id="footer-links-one">
-      <a href="#">About Us</a>
-      <a href="#">Jobs</a>
-      <a href="#">Press</a>
-      <a href="#">Blog</a>
-    </div>
-    <div id="footer-links-two">
-      <a href="#">Contact Us</a>
-      <a href="#">Terms</a>
-      <a href="#">Privacy</a>
-    </div>
-    <div class="social-media-icons">  
-        <i class="fa fa-facebook"></i>
-        <i class="fa fa-twitter"></i>
-        <i class="fa fa-instagram"></i>
-    </div>
+    <img id="wave-bg" src="images/bg-curvy-desktop.svg" alt="wave background image">
   </footer>
   <script src="main.js"></script>
 </body>

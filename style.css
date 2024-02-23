@@ -915,7 +915,7 @@ footer::after {
     }
     #stay-productive h2 {
         font-size: 1.2rem;
-        margin: 18px 0;
+        margin: 48px 0;
     }
     #stay-productive p {
         text-align: left;
@@ -1207,10 +1207,17 @@ footer::after {
         font-weight: 200;
     }
     #phone-icon {
+        height: 18px;
+        width: 18px;
         grid-column: 1 / 2;
         grid-row: 2 / 3;
         height: 100%;
         width: auto;
+        object-fit: contain;
+    }
+    #phone-icon img {
+        height: 18px;
+        width: 18px;
         object-fit: contain;
     }
     #email-text {
@@ -1220,11 +1227,18 @@ footer::after {
         font-weight: 200;
     }
     #email-icon {
+        height: 24px;
+        width: 24px;
         grid-column: 1 / 2;
         grid-row: 3 / 4;
         margin-right: 0px;
         height: 100%;
         width: auto;
+        object-fit: contain;
+    }
+    #email-icon img {
+        height: 24px;
+        width: 24px;
         object-fit: contain;
     }
     #footer-links-one,

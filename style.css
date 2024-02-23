@@ -528,11 +528,11 @@ h1 {
 
 footer {
     background-color: #0B1524;
-    margin: 80px 0px -160px 0;
+    margin: 80px 0px -300px 0;
     padding: 0 80px;
     color: #FFFFFF;
     padding-top: 240px;
-    padding-bottom: 240px;
+    padding-bottom: 420px;
 }
 
 footer::after {
@@ -645,11 +645,6 @@ footer::after {
     width: 24px;
     object-fit: contain;
 }
-
-/* #footer-links-one,
-#footer-links-two  {
-    margin: 32px 0px;
-} */
 
 #footer-links-one a,
 #footer-links-two a {
